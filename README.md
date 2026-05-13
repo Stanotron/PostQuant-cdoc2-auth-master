@@ -1,5 +1,7 @@
 # cdoc-auth
 
+> **Thesis context:** This fork is used as part of an M.Sc. thesis on post-quantum adaptation of CDOC2, carried out under the supervision of Associate Professor Sedat Akleylek at the University of Tartu.
+
 * Implements `x-cdoc2-auth-ticket` header parameter for 
   [GET /key-shares/\${shareId}](https://github.com/open-eid/cdoc2-openapi/cdoc2-key-shares-openapi.yaml)
 * Supports ES256 and RS256 algorithms required to support [Mobile-ID](https://github.com/SK-EID/MID) 
